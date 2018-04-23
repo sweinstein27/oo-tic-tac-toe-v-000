@@ -53,7 +53,7 @@ WIN_COMBINATIONS = [
     end
   end
   return number_of_turns
-  
+
 
   def current_player
     if turn_count % 2 == 0
@@ -61,6 +61,7 @@ WIN_COMBINATIONS = [
     else
     "O"
   end
+end
 
 #turn
 def turn
